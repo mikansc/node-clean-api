@@ -13,9 +13,9 @@ module.exports = class AuthUseCase {
       throw new MissingParamError('password')
     }
     const user = await this.loadUserByEmailRepository.load(email)
-
     if (!user) {
       return null
     }
+    return null
   }
 }

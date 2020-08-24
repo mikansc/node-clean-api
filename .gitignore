@@ -1,2 +1,6 @@
 node_modules
 login.js
+.vscode
+coverage
+
+.DS_Store

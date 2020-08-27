@@ -1,5 +1,5 @@
 module.exports = {
-  mongoUrl: process.env.MONGO_URL || 'mongodb+srv://michaelnsc:miguelito3@mkdev-lo7rc.gcp.mongodb.net/clean-node-api?retryWrites=true&w=majority',
+  mongoUrl: process.env.MONGO_URL || 'mongodb://127.0.0.1:27017/clean-node-api',
   tokenSecret: process.env.TOKEN_SECRET || 'secret',
   port: process.env.PORT || 3000
 }
